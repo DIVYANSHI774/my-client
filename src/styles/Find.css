@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb; /* very light off-white */
+  padding: 40px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 24px;
+  color: #2c3e50; /* dark blue-gray */
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #34495e; /* medium dark blue */
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #bdc3c7; /* soft gray-blue */
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #27ae60; /* green */
+  background-color: #e6f9e8; /* very light green */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.15);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60; /* green */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e8449; /* darker green */
+}
+
+p {
+  font-size: 16px;
+  color: #2c3e50; /* dark blue-gray */
+  margin: 8px 0;
+}

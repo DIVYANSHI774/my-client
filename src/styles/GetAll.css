@@ -1,0 +1,55 @@
+.getall-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(44, 62, 80, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.getall-button {
+  background-color: #2980b9;
+  color: #ffffff;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 30px;
+}
+
+.getall-button:hover {
+  background-color: #1c5980;
+  transform: scale(1.05);
+}
+
+.getall-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(44, 62, 80, 0.08);
+}
+
+.getall-table thead {
+  background-color: #2980b9;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.getall-table th,
+.getall-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #ecf0f1;
+  text-align: left;
+}
+
+.getall-table tbody tr:hover {
+  background-color: #f0f9ff;
+  transition: background-color 0.3s ease;
+}

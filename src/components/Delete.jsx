@@ -1,0 +1,35 @@
+import axios from "axios";
+import { useState } from "react";
+import '../styles/Delete.css';
+
+export function Delete() {
+  const [id, setId] = useState("");
+
+  async function deleteData(e) {
+    e.preventDefault();
+    try {
+      const response = await axios.delete(`${process.env.REACT_APP_API_URL}/api/employees/${id}`);
+      alert(response.data.message);
+    } catch (err) {
+      alert("Record Not Found: " + err.message);
+    }
+  }
+
+  return (
+    <div className="container-delete">
+      <h3>Delete Record By ID</h3>
+      <hr />
+      <form onSubmit={deleteData}>
+        <input
+          type="text"
+          placeholder="Enter Id"
+          value={id}
+          onChange={e => setId(e.target.value)}
+          required
+        />
+        <br /><br />
+        <button type="submit">Remove Data</button>
+      </form>
+    </div>
+  );
+}

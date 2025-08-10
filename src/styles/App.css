@@ -1,0 +1,65 @@
+.app-container {
+  text-align: center;
+  background-color: #e6f2ff; /* light sky blue, soft background */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.heading h1 {
+  color: #2c3e50; /* dark blue-gray */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #a3c1da; /* subtle blue shadow */
+}
+
+.nav-links nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background-color: #2980b9; /* bright blue */
+  box-shadow: 0px 4px 6px rgba(41, 128, 185, 0.3);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  color: #d6eaff; /* very light blue */
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.nav-links a:hover {
+  background-color: #1c5980; /* darker blue */
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-links a.active {
+  color: #ffffff;
+  background-color: #1c5980;
+  border-bottom: 2px solid #ffffff;
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2980b9; /* bright blue */
+  color: #d6eaff; /* light blue text */
+  text-align: center;
+  padding: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 1000;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.15);
+}
+.active-link {
+  color: blue;       /* Active link ka color */
+  font-weight: bold; /* Thoda mota font */
+  text-decoration: underline;
+}
